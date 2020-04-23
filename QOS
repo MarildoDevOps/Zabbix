@@ -1,0 +1,17 @@
+# Zabbix
+Conf do zabbix:
+
+StartPollers=45
+StartPollersUnreachable=20
+StartTrappers=3
+StartPingers=25
+StartDiscoverers=5
+StartTimers=4
+StartAlerters=5
+CacheSize=4G
+CacheUpdateFrequency=30
+StartDBSyncers=30
+HistoryCacheSize=256M
+HistoryIndexCacheSize=512M
+TrendCacheSize=1024M
+ValueCacheSize=3G
